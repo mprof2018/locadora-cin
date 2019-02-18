@@ -3,7 +3,7 @@ import re
 import django_heroku
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 SECRET_KEY = 'pr1c7f_vn81cmvo+zlcmt)9jmtwx@p_l^@wga+l#(%3&h6mrcs'
 
