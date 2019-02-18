@@ -8,6 +8,7 @@ def step_impl(context, page):
 
 @when(u'clicar no botão Realizar Locação')
 def step_impl(context):
+    context.browser.implicitly_wait(30)
     context.browser.find_element_by_link_text('Realizar Locação').click()
 
 @when(u'selecionar o cliente da locação')

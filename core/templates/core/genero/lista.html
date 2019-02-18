@@ -21,7 +21,7 @@
         <div class="card-body">
             <div class="table-responsive">  
                 {% if perms.core.add_genero %}
-                    <a href="{% url 'core:genero-novo' %}" class="btn btn-primary float-right mb-3">Adicionar</a>
+                    <a href="{% url 'core:genero-novo' %}" id='id_add_genero' class="btn btn-primary float-right mb-3">Adicionar</a>
                 {% endif %}
                 <form method="GET" action="{%url 'core:genero-listar'%}">
                     <div class="input-group mb-3">

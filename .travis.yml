@@ -34,7 +34,7 @@ script:
   - whereis google-chrome-stable
   - whereis chromedriver
   # - tox
-  # - coverage run -m pytest
+  # - coverage run -m pytest core/tests
   - behave
   # - coverage report -m
 # after_script:

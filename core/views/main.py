@@ -536,7 +536,7 @@ class DevolucaoCriar(LoginRequiredMixin, PermissionRequiredMixin, SuccessMessage
 
     def form_valid(self, form):
         item = form.cleaned_data.get('item')
-        reservas = Reserva.objects.filter(filme=item.filme, midia=item.tipo_midia)
+        reservas = Reserva.objects.filter(filme=item.item.filme, midia=item.item.tipo_midia)
 
 
         for r in reservas:
