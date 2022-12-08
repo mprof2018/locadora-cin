@@ -9,7 +9,7 @@ behave==1.2.6
 behave-django==1.1.0
 behave-webdriver==0.2.2
 cached-property==1.5.1
-certifi==2018.11.29
+certifi==2022.12.7
 chardet==3.0.4
 colorama==0.4.1
 coverage==4.0.3
